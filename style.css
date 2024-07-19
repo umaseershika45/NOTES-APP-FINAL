@@ -221,3 +221,40 @@ textarea {
 #closeBtn {
     background-color: gainsboro;
 }
+/* Login and Registration Page Styles */
+#login-container, #register-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#login-form input, #register-form input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#login-form button, #register-form button {
+    background-color: #8c53ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 85%;
+}
+
+#login-form button:hover, #register-form button:hover {
+    background-color: #6a1b9a;
+}
+
+a {
+    color: #8c53ff;
+}
